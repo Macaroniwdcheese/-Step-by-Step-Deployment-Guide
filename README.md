@@ -43,6 +43,43 @@ az deployment group create \
   --query ipAddress \
   --output tsv
 
-then:
+_______________________________________________________________________________________________
+
+Ik liep tegen een error aan mijn json template was correct opgesteld alleen kreeg ik een interne error bij het verwerken van de API-respons, wat resulteert in deze RuntimeError:
+The content for this response was already consumed.
+
+![Screenshot from 2025-06-10 19-47-20](https://github.com/user-attachments/assets/55fbb5a2-812a-48b4-9a55-2bd76ca1bccb)
+
+
+Dit is een bekend probleem in bepaalde versies van de Azure CLI, vooral bij Python 3.12-gebaseerde builds. 
+Het heeft niets met jouw template of parameters te maken — de fout zit in de foutafhandeling van de CLI zelf.
+
+ik heb 3 opties; python downgraden, vanuit een docker container werken, of vanuit een venv virtual omgeving.
+
+Ik koos voor de virtuele omgeving en parameters json file toevoegen aan de project. 
+
+vervolgens heb ik beide json files geupload via de cloudshell en ben toen vanuit de shell gaan werken, dus niet lokaal. 
+
+![Screenshot from 2025-06-10 19-49-11](https://github.com/user-attachments/assets/1a95a05d-d551-4b82-b980-53dcdd4a836e)
+
+
+Recources Deployen in cloudshell:
+
+az deployment group create   --resource-group myResourceGroupEast   --template-file secure-vm-lab-eastus.json   --parameters @parameters.json
+
+![Screenshot from 2025-06-10 20-14-30](https://github.com/user-attachments/assets/083a4c3d-f4ec-49ce-a1ff-2cea523dd328)
+
+
+![Screenshot from 2025-06-10 20-11-56](https://github.com/user-attachments/assets/f3a3d31d-f2fa-45f8-aa90-1289c15705d3)
+
+
+connecten met de SecLAb Virtual machine:
+
 ssh azureuser@ your-public-ip
+![Screenshot from 2025-06-10 20-10-43](https://github.com/user-attachments/assets/0ef3014c-44b2-4d2b-b77d-55a8e48abb4d)
+
+
+We are in !
+
+![Screenshot from 2025-06-10 20-18-08](https://github.com/user-attachments/assets/d64e2452-ad2d-445c-8ff2-67b9f131059d)
 
