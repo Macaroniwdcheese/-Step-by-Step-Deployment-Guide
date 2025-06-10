@@ -18,11 +18,12 @@ command: ''az version''
 1. 📁 Create a working folder
 mkdir azure-sec-lab && cd azure-sec-lab
 
-
 2. ✍️ Save the ARM template
 nano secure-vm-lab.json
 
-3. 🗝️ Prepare your variables
+![Screenshot from 2025-06-10 12-40-36](https://github.com/user-attachments/assets/a0ad187d-4f06-4a34-b88f-6be5857aaf77)
+
+4. 🗝️ Prepare your variables
    # Use your actual public IP
 export MY_IP=$(curl -s ifconfig.me)
 
@@ -43,5 +44,5 @@ az deployment group create \
   --output tsv
 
 then:
-ssh azureuser@<your-public-ip>
+ssh azureuser@ your-public-ip
 
