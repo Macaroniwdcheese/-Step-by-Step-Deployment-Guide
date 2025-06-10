@@ -33,7 +33,7 @@ export MY_KEY=$(cat ~/.ssh/id_rsa.pub)
 4. 🚀 Deploy to your Resource Group
 az deployment group create \
   --resource-group SecLab-RG \
-  --template-file secure-vm-lab.json \
+  --template-file secure-vm-lab-eastus.json \
   --parameters adminPublicKey="$MY_KEY" allowedIP="$MY_IP"
 
 5. 🔐 Connect to your VM
