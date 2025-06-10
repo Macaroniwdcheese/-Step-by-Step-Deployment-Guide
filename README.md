@@ -83,3 +83,11 @@ We are in !
 
 ![Screenshot from 2025-06-10 20-18-08](https://github.com/user-attachments/assets/d64e2452-ad2d-445c-8ff2-67b9f131059d)
 
+______________________________________________________________________________________________________________________________
+
+🔥 Simulation Plan: Simulate a Malware Download & Execution
+
+This technique mimics an attacker downloading and running a suspicious script — one of the most common attack vectors.
+
+______________________________________________________________________________________________________________________________
+
