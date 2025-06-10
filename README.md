@@ -19,7 +19,7 @@ command: ''az version''
 mkdir azure-sec-lab && cd azure-sec-lab
 
 2. ✍️ Save the ARM template
-nano secure-vm-lab.json
+nano secure-vm-lab-eastus.json
 
 ![Screenshot from 2025-06-10 12-40-36](https://github.com/user-attachments/assets/a0ad187d-4f06-4a34-b88f-6be5857aaf77)
 
