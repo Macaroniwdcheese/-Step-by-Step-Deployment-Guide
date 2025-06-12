@@ -85,7 +85,7 @@ We are in !
 ![Screenshot from 2025-06-10 20-18-08](https://github.com/user-attachments/assets/d64e2452-ad2d-445c-8ff2-67b9f131059d)
 
 ______________________________________________________________________________________________________________________________
-Vervolg stappen opties zijn :
+Vervolg stap na het opzetten van de cybersecuritylab :
 
 🔥 Simulatieplan: Malware Download & Execution
 
