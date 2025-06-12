@@ -1,6 +1,7 @@
 # -Step-by-Step-Deployment-Guide
 
-Building hands-on cybersecurity lab in Azure  a step-by-step command guide so you can run everything from your Linux terminal using the Azure CLI:
+Building a hands-on cybersecurity lab in Azure.
+A step-by-step command guide so you can run everything from your Linux terminal using the Azure CLI:
 
 🧰 Prerequisites (One-Time Setup)
 
