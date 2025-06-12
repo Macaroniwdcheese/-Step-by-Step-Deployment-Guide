@@ -71,7 +71,7 @@ az deployment group create   --resource-group myResourceGroupEast   --template-f
 ![Screenshot from 2025-06-10 20-14-30](https://github.com/user-attachments/assets/083a4c3d-f4ec-49ce-a1ff-2cea523dd328)
 
 
-![Screenshot from 2025-06-10 20-11-56](https://github.com/user-attachments/assets/f3a3d31d-f2fa-45f8-aa90-1289c15705d3)
+![Screenshot from 2025-06-12 23-50-06](https://github.com/user-attachments/assets/b31c21d7-64de-44eb-a743-04be5bf2e685)
 
 
 connecten met de SecLAb Virtual machine:
