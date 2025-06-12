@@ -85,10 +85,18 @@ We are in !
 ![Screenshot from 2025-06-10 20-18-08](https://github.com/user-attachments/assets/d64e2452-ad2d-445c-8ff2-67b9f131059d)
 
 ______________________________________________________________________________________________________________________________
+Vervolg stappen opties zijn :
 
-🔥 Simulation Plan: Simulate a Malware Download & Execution
+🔥 Simulatieplan: Malware Download & Execution
 
-This technique mimics an attacker downloading and running a suspicious script — one of the most common attack vectors.
+💣 Simuleer een aanval waarbij een script wordt gedownload en uitgevoerd. Dit is een veelvoorkomende aanvalstechniek die je in je lab kunt gebruiken om:
+
+    Defender detectie te testen
+
+    SOC rules te verfijnen
+
+    EDR-logs te analyseren
 
 ______________________________________________________________________________________________________________________________
-
+Ik heb getracht een bovenstaande te doen helaas, kreeg ik geen alerts  van Microsoft Cloud Defender.
+Of waren deze 10-20 minuten vertraagd. ( had ik niet zo veel trek in, ongeduldig (-.-) ) 
